@@ -6,6 +6,11 @@ All notable changes to the Open WebUI Helm chart will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v12.1.1]
+
+### Fixed
+Fixed service account name handling to prevent unwanted suffix appending when using custom service account names. The `-sa` suffix is now only applied to auto-generated names, not user-provided names.
+
 ## [v12.1.0]
 
 ### Changed
